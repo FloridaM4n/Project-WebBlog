@@ -1,0 +1,62 @@
+.post-img{
+    height: 404px;
+    overflow: hidden;
+}
+.post-img img{
+    width: 100%;
+}
+.gambar-isi-artikel {
+  text-align: center;
+  margin: 20px 0;
+}
+.gambar-isi-artikel img {
+  max-width: 70%;
+  height: auto;
+}
+
+  h1.font-judul{
+  font-size: var(--margin-xl);
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 5%;
+  }
+
+.blog-post-content{
+    /* background-color: #EFF5D2; */
+}
+.blog-post-content h1{
+    text-align: center;
+}
+.blog-post-content p{
+    font-size: 18px; 
+}
+
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column; 
+    align-items: center;
+}
+.blogpost-meta{ 
+    display: center;
+    justify-content: space-between;
+}
+
+.author-info{
+    margin: 0 5%;
+}
+
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+    opacity: 0.8;
+    text-align: center;
+}
+
+.social{
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
