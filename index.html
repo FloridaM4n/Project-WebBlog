@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>Blog Pribadi Muhammad Valid</title>
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+<header class="nav-bg">
+  <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+  </button>
+</header>
+  <nav id="navbar">
+    <ul>
+      <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+        </button>
+      </li>
+      <li class="home-li"><a class="active-link" aria-current="page" href="index.html"><img src="../img/logo.png" width="94px" alt="logo"></a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="sourcecode.html">Source Code</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+    
+  </nav>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+ 
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="m-auto content max-width-1 my-2">
+        <div class="content-left">
+            <h1>Dapatkan Fakta, Temukan Cerita</h1>
+            <p class="font-isi">Jelajahi informasi yang kamu butuhkan di sini!</p>
+            
+        <div class="nav-right">
+                <input id="searchInput" oninput="showSearchResults()" type="text" placeholder="Mulai cari...">
+                <button id="clearButton" onclick="clearSearch()" style="display: none;">&times;</button>
+<div id="searchResults" class="dropdown-content"></div>
+        </div>
+        <p class="font-isi">atau</p>
+        
+            <button class="random-button" onclick="openRandomPage()">Buka halaman acak</button>
+    
+       </div>
+       
+
+        <div class="content-right">
+            <img src="../img/kelasking.jpg" alt="Valid ganteng">
+        </div>
+     </div>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>Rekomendasi Halaman</h2>
+
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="../img/1.png" alt="article">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost.html">
+                    <h3>Akhir Pekan Impian Para Siswa: Antara Istirahat dan Aktivitas</h3>
+                </a>
+
+                <div>Muhammad Valid</div>
+                <span>30 Okt 2024 | 10 min read</span>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="footer">
+        <p>Copyright &copy; vdarevenant.my.id </p>
+    </div>
+</body>
+
+</html>

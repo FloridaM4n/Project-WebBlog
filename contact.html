@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blogpost.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+        <title>Kontak</title>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <header class="nav-bg">
+  <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+  </button>
+</header>
+  <nav id="navbar">
+    <ul>
+      <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+        </button>
+      </li>
+      <li class="home-li"><a  href="index.html">Beranda</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="sourcecode.html">Source Code</a></li>
+      <li><a class="active-link" aria-current="page" href="contact.html">Kontak</a></li>
+    </ul>
+
+  </nav>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+  
+        <section>
+            <div class="container">
+                <div class="contactInfo"> 
+                    <div>
+                        <h2>Informasi Kontak</h2>
+                        <ul class="info">
+                            <li>
+                                <span><img src="../img/location.png"></span>
+                                <span>Bekasi,<br>
+                                    Indonesia</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="../img/mail.png"></span>
+                                <!-- <span>nassosanagn@gmail.com</span> -->
+                                <span><a href = "mailto: muhammad.valid59@sma.belajar.id">muhammad.valid59@sma.belajar.id</a></span>
+                            </li>
+                            <li>
+                                <span><img src="../img/call.png"></span>
+                                <span>—</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/muhammad.valid.18"><img src="../img/fb.png"></a></li>
+                        <li><a href="https://www.instagram.com/v_a.07/"><img src="../img/ig.png"></a></li>
+                        <li><a href="https://t.me/ValidCuy"><img src="../img/telegram.png"></a></li>
+
+                    </ul>
+                </div>
+ 
+ <form action="https://api.web3forms.com/submit" method="POST" id="myForm">
+
+                    <div class="contactForm">
+                        <h2>Sampaikan Pesan</h2>
+                        <div class="formBox">
+          <input type="hidden" name="access_key" value="d768c99f-d4fc-4703-86d9-72db691520eb">
+                        <div class="inputBox w50">
+                            <input class="textInput" type="text" name="Nama Lengkap" required>
+                            <span>Nama Lengkap</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input class="textInput" type="text" name="Nama Panggilan" required>
+                            <span>Nama Panggilan</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input class="textInput" type="email" name="email" required>
+                            <span>Alamat Email</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input class="textInput" type="text" name="No Telp" required>
+                            <span>Nomor Telepon</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea class="textInput" name="Pesan" required></textarea>
+                            <span>Ketik pesan yang ingin Anda sampaikan..</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Kirim">
+                        </div>
+                    </div>
+                </div>
+</form>
+
+
+        </section>
+       
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    
+    <div class="footer">
+       <p>Copyright &copy; vdarevenant.my.id </p>
+    </div>
+    
+</body>
+</html>

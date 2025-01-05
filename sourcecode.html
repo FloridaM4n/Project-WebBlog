@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blogpost.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+        <title>Tentang Saya</title>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <header class="nav-bg">
+  <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+  </button>
+</header>
+  <nav id="navbar">
+    <ul>
+      <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="black"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+        </button>
+      </li>
+      <li class="home-li"><a  href="index.html">Beranda</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a class="active-link" aria-current="page" href="sourcecode.html">Source Code</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+
+  </nav>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+  
+  <br>
+     <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+  <div class="m-auto content max-width-1 my-2">
+        <div class="about-img">
+            <img src="../img/masak.jpg" alt="doggi">
+        </div>
+        <div class="about-content">
+            <h1>Source Code</h1>
+<p>Dalam perjalanan membuat dan mengembangkan blog ini, tidak semua pengkodean yang ada merupakan milik saya. Berikut ini adalah beberapa sumber-sumber yang saya ambil, gabungkan, dan perbaiki:</p>
+
+<p>Template dasar blog ini berasal dari repositori
+  <a href="https://github.com/byomkesh03/Responsive-Blog-Template/"> Responsive Blog Template</a>  oleh byomkesh03.
+</p>
+
+<p>Bagian <a href="/contact.html">Kontak</a> dari blog ini diambil dari repositori
+  <a href="https://github.com/nassosanagn/Contact-Us-Page-Design">Contact Us Page Design</a>  oleh nassosanagn.
+</p>
+
+<p>Bilah navigasi dari blog ini dibuat oleh
+  <a href="https://youtube.com/@coding2go?si=K1ClinqFNXZDfTb9">Coding2GO</a>, diambil dari website <a href="https://www.coding2go.com">coding2go.com</a>.
+</p>
+<p>Bila kalian ingin melihat lisensi, source code, dan lain sebagainya, kalian bisa kunjungi repositori Github blog ini di 
+  <a href="https://github.com/FloridaM4n/FloridaM4n.github.io">sini</a>.
+</p>
+
+        </div>
+       </div>
+       
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    
+    <div class="footer">
+       <p>Copyright &copy; vdarevenant.my.id </p>
+    </div>
+    
+</body>
+</html>
